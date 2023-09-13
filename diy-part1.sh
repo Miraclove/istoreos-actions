@@ -14,4 +14,4 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git stone https://github.com/s71557/IstoreOS-Packages.git;master' >>feeds.conf.default
+# echo 'src-git stone https://github.com/s71557/IstoreOS-Packages.git;master' >>feeds.conf.default
