@@ -15,3 +15,4 @@
 
 # Add a feed source
 echo 'src-git stone https://github.com/s71557/IstoreOS-Packages.git;master' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small.git;master' >>feeds.conf.default
