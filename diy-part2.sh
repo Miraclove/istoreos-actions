@@ -20,7 +20,7 @@ sed -i 's/OpenWrt/NetGate/g' package/base-files/files/bin/config_generate
 # sed -i "s?/bin/login?/usr/libexec/login.sh?g" ${GITHUB_WORKSPACE}/openwrt/package/feeds/packages/ttyd/files/ttyd.config
 
 # 添加自定义软件包
- echo '
- CONFIG_PACKAGE_luci-app-passwall=y
- CONFIG_PACKAGE_luci-app-adguardhome=y
- ' >> .config
+echo '
+CONFIG_PACKAGE_luci-app-passwall=y
+CONFIG_PACKAGE_luci-app-adguardhome=y
+' >> .config
